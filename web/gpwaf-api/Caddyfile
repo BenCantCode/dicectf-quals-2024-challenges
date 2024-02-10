@@ -1,3 +1,0 @@
-gpwaf-api.attest.lol {
-    reverse_proxy api:8081
-}

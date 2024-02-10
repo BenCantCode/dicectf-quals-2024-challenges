@@ -16,9 +16,10 @@ containers:
     build: challenge
     ports:
       - 8080
-    environment:
-      API_ENDPOINT: https://gpwaf-api.mc.ax
-      JWK_ENDPOINT: https://gpwaf-api.attest.lol/jwk
+  gpt:
+    build: gpt
+    ports:
+      - 8000
 expose:
   app:
     - target: 8080
